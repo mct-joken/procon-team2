@@ -1,0 +1,49 @@
+h2 {
+  color: rgb(161, 42, 165);
+  font-size: 1.5rem;
+}
+body {
+  font-family:'Imitate', 'Noto Sans JP', sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;                  /* 幅をページいっぱいに広げる */
+  border-collapse: collapse;    /* 隣り合う枠線を結合する */
+  text-align: left;             /* テキストを左寄せにする */
+}
+
+th, td {
+  padding: 0.5rem;              /* 内側の余白を0.5rem取る */
+  border: 1px solid #dddddd;
+  border: 1px solid #ddd;       /* 太さ1px, スタイルsolid, 色#dddの枠線をつける */
+}
+
+th {
+  background-color: #dbade1;    /* 要素の背景色を#e1adadにする */
+}
+img {
+  height: 2rem;
+}
+header {
+  display: flex;    /* 子要素を縦並びから横並びに変更 */
+  justify-content: space-between;   /* 間隔を最大まで広げる */
+  border-bottom: 1px solid #faf2fa; /* 太さ1px, スタイルsolid, 色#dddの枠線を下だけつける */
+}
+
+header div {
+  display: flex;    /* ネスト対応 */
+  align-items: center;    /* 垂直方向を中央揃え */
+}
+ol {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+ul {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+G2 {
+  color: rgb(161, 42, 165);
+  font-size: 2.5rem;
+  border: 2px solid purple;
+}
